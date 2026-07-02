@@ -1,1 +1,20 @@
+# Base Streamlit theme for the Infrared Image Colourization & Enhancement
+# Workstation. This sets the ISRO Deep Space palette at the framework level
+# (native widgets: sliders, checkboxes, focus rings, code blocks) so it
+# holds even where the custom CSS in app.py intentionally doesn't reach.
+# Must live at `.streamlit/config.toml`, sitting next to app.py.
 
+[theme]
+base = "dark"
+primaryColor = "#FF6B35"
+backgroundColor = "#0B0F19"
+secondaryBackgroundColor = "#121A2C"
+textColor = "#FFFFFF"
+font = "sans serif"
+
+[server]
+maxUploadSize = 500
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
