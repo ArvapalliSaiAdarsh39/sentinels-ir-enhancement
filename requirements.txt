@@ -1,5 +1,9 @@
-streamlit>=1.35.0
-rasterio>=1.4.0
-opencv-python-headless>=4.9.0.80
-numpy>=1.26.4
-pyinstaller>=6.7.0
+# Infrared Image Colourization & Enhancement Workstation
+# Pinned to the exact versions this codebase was built and tested against
+# in keeping with the "100% Deterministic / reproducible" architectural
+streamlit==1.58.0
+rasterio==1.5.0
+opencv-python-headless==4.13.0.92
+numpy==2.4.4
+plotly==6.8.0
+pyproj==3.7.2
