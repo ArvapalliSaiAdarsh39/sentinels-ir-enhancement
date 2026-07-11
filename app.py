@@ -760,7 +760,7 @@ def main() -> None:
 
     staged = st.session_state.staged
     if staged is None:
-        st.info("⬆️ Awaiting a raw GeoTIFF upload to begin staging. Nothing is processed until you say so.")
+        st.info("⬆️ Awaiting a raw GeoTIFF upload to begin staging.Proceed When")
         return
 
     render_staging_box(staged["metadata"])
